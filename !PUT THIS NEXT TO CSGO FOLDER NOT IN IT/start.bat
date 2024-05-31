@@ -1,0 +1,1 @@
+start srcds.exe -game csgo -tickrate 128 -console -heartbeat -usercon -maxplayers_override 24 +game_type 0 +game_mode 0 +mapgroup mg_active +map surf_utopia_v3 -sv_cheats 1 +sv_cheats 1 -sv_pure 0 +sv_pure 0 -insecure +mp_buy_anywhere 1 +mp_buytime 9999

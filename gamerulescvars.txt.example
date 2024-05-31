@@ -1,0 +1,17 @@
+"NotifyRulesCvars"
+{
+	// List cvars as enabled or disabled for game rules response to management tools and 3rd party clients
+	// Value of 1 means cvar is enabled in response packet, 0 means disabled
+	
+	// Include in response:
+	mp_timelimit		1
+	mp_maxrounds		1
+	mp_friendlyfire		1
+	
+	// Do not include in response:
+	sv_wateraccelerate	0	// do not include in response
+	sv_waterdist		0	// do not include in response
+	sv_waterfriction	0	// do not include in response
+
+	// any other cvars not listed here will not be included
+}
