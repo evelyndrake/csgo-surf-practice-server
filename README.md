@@ -1,6 +1,8 @@
 # Counter-Strike: Global Offensive Dedicated Practice Server
 This is a collection of addons, maps, scripts, and configuration files used for my personal CSGO surf server.If you're looking for my CSS guide, [it can be found here](https://github.com/evelyndrake/css-surf-practice-server).
+
 ![](https://i.imgur.com/bpTn31a.png)
+
 The server contains the following, already configured for your convenience:
 - [SurfTimer](https://github.com/surftimer/SurfTimer) and [predefined zones](https://github.com/Sayt123/SurfZones)
 - [Metamod and Sourcemod](https://www.sourcemod.net/)
