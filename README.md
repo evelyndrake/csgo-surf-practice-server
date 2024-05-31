@@ -31,7 +31,7 @@ The server contains the following, already configured for your convenience:
 - In your dedicated server, navigate to `csgo/addons/sourcemod/configs` and open the file `admins_simple.ini`.
 - Use [steamidfinder.com](https://www.steamidfinder.com/) to find your Steam ID, for example, mine is `STEAM_0:0:47800602`.
 - Replace this Steam ID in the configuration file with your own.
-- To adjust the server's configuration, modify files in `csgo/addons/sourcemod/configs` and `csgo/cfg`, as well as `start.bat` and `csgo/cfg/server.cfg'.
+- To adjust the server's configuration, modify files in `csgo/addons/sourcemod/configs` and `csgo/cfg`, as well as `start.bat` and `csgo/cfg/server.cfg`.
 ### Setting up the database
 - This part was the most confusing for me, but you got this <3
 - Start by installing the Windows version of [MariaDB](https://mariadb.org/download/?t=mariadb).
