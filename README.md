@@ -35,11 +35,11 @@ The server contains the following, already configured for your convenience:
 - Replace this Steam ID in the configuration file with your own.
 - To adjust the server's configuration, modify files in `csgo/addons/sourcemod/configs` and `csgo/cfg`, as well as `start.bat` and `csgo/cfg/server.cfg`.
 ### Setting up the database
-- This part was the most confusing for me, but you got this <3
+- This part was the most confusing for me, but you got this ♥
 - Start by installing the Windows version of [MariaDB](https://mariadb.org/download/?t=mariadb).
 - The installer should prompt you to create a database--call it `surftimer` and make the password for the `root` user `admin` (You can make it whatever you want, but then you'll have to change the password in `csgo/addons/sourcemod/configs`).
-- Search for MariaDB in the Windows start menu and open `Command Prompt (MariaDB)`
-- Run `mysql -u root -p surftimer < "YOUR_SERVER_DIRECTORY/csgo/scripts/mysql-files/fresh_install.sql"`, and enter your password (`admin` by default) when prompted
+- Search for MariaDB in the Windows start menu and open `Command Prompt (MariaDB)`.
+- Run `mysql -u root -p surftimer < "YOUR_SERVER_DIRECTORY/csgo/scripts/mysql-files/fresh_install.sql"`, and enter your password (`admin` by default) when prompted.
 - Run the same command two more times, replacing `fresh_install.sql` with `ck_zones.sql` and `ck_maptier.sql`.
 - Your database should now be set up!
 ### Starting the server
