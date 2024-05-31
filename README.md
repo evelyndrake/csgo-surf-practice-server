@@ -41,7 +41,7 @@ The server contains the following, already configured for your convenience:
 - Search for MariaDB in the Windows start menu and open `Command Prompt (MariaDB)`
 - Run `mysql -u root -p surftimer < "YOUR_SERVER_DIRECTORY/csgo/scripts/mysql-files/fresh_install.sql"`, and enter your password (`admin` by default) when prompted
 - Run the same command two more times, replacing `fresh_install.sql` with `ck_zones.sql` and `ck_maptier.sql`.
-- Your database should now be set up!.
+- Your database should now be set up!
 ### Starting the server
 - Run `start.bat` to start your local server.
 - Open your Counter Strike: Global Offensive client before starting the server, otherwise it will say you already have the game open.
