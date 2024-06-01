@@ -23,7 +23,7 @@ The server contains the following, already configured for your convenience:
 - Note that the folder containing the SteamCMD executable will be the folder in which your server is stored. This will take ~20GB if I recall correctly.
 - Run SteamCMD.
 - In the command prompt, login anonymously: `login anonymous`.
-- Install the CS:GO dedicated server: `app_update 740 validate'.
+- Install the CS:GO dedicated server: `app_update 740 validate`.
 - Exit SteamCMD.
 - Navigate to the folder containing your dedicated server, containing the folders: `bin`, `csgo`, and `platform`.
 - From this repository, remove the `start.bat` file located inside `!PUT THIS NEXT TO CSGO FOLDER NOT IN IT` and place it next to the `csgo` directory in your dedicated server (the file will exist alongside the 3 folders I just mentioned).
