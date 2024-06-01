@@ -27,7 +27,7 @@ The server contains the following, already configured for your convenience:
 - Exit SteamCMD.
 - Navigate to the folder containing your dedicated server, containing the folders: `bin`, `csgo`, and `platform`.
 - From this repository, remove the `start.bat` file located inside `!PUT THIS NEXT TO CSGO FOLDER NOT IN IT` and place it next to the `csgo` directory in your dedicated server (the file will exist alongside the 3 folders I just mentioned).
-- Copy the `csgo` folder from this repository and merge it with your dedicated server's, replacing files when prompted.
+- Copy the rest of the files from this repository and merge them with your dedicated server's, replacing files when prompted.
 - [Download my premade surf map pack](https://drive.google.com/file/d/1e96J0UEXmt8D-dD4p3Af9d5tgRO9N75T/view?usp=sharing), and extract it into your server's `csgo/maps` folder
 - For some reason, I've been experiencing issues unless you also copy the maps folder from the server's `csgo` folder into your own client-side `Counter-Strike Global Offensive/csgo` folder (In Steam, right click CSGO -> Manage -> Browse local files to access this folder). Setting up FastDL will probably fix this.
 - In your dedicated server, navigate to `csgo/addons/sourcemod/configs` and open the file `admins_simple.ini`.
