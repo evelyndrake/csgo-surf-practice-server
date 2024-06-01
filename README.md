@@ -1,5 +1,5 @@
 # Counter-Strike: Global Offensive Dedicated Practice Server
-This is a collection of addons, maps, scripts, and configuration files used for my personal CSGO surf server.If you're looking for my CSS guide, [it can be found here](https://github.com/evelyndrake/css-surf-practice-server).
+This is a collection of addons, maps, scripts, and configuration files used for my personal CSGO surf server. If you're looking for my CSS guide, [it can be found here](https://github.com/evelyndrake/css-surf-practice-server).
 
 ![](https://i.imgur.com/bpTn31a.png)
 
