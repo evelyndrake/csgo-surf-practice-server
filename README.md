@@ -26,6 +26,7 @@ The server contains the following, already configured for your convenience:
 - Install the CS:GO dedicated server: `app_update 740 validate`.
 - Exit SteamCMD.
 - Navigate to the folder containing your dedicated server, containing the folders: `bin`, `csgo`, and `platform`.
+- Download this repository (click the green `Code` button, then select `Download ZIP`) and extract it anywhere
 - From this repository, remove the `start.bat` file located inside `!PUT THIS NEXT TO CSGO FOLDER NOT IN IT` and place it next to the `csgo` directory in your dedicated server (the file will exist alongside the 3 folders I just mentioned).
 - Copy the rest of the files from this repository and merge them with your dedicated server's, replacing files when prompted.
 - [Download my premade surf map pack](https://drive.google.com/file/d/1e96J0UEXmt8D-dD4p3Af9d5tgRO9N75T/view?usp=sharing), and extract it into your server's `csgo/maps` folder
@@ -39,7 +40,7 @@ The server contains the following, already configured for your convenience:
 - Start by installing the Windows version of [MariaDB](https://mariadb.org/download/?t=mariadb).
 - The installer should prompt you to create a database--call it `surftimer` and make the password for the `root` user `admin` (You can make it whatever you want, but then you'll have to change the password in `csgo/addons/sourcemod/configs`).
 - Search for MariaDB in the Windows start menu and open `Command Prompt (MariaDB)`.
-- Run `mysql -u root -p surftimer < "YOUR_SERVER_DIRECTORY/csgo/scripts/mysql-files/fresh_install.sql"`, and enter your password (`admin` by default) when prompted.
+- Run `mysql -u root -p surftimer < "FULL_PATH_TO_SERVER_DIRECTORY/csgo/scripts/mysql-files/fresh_install.sql"`, and enter your password (`admin` by default) when prompted.
 - Run the same command two more times, replacing `fresh_install.sql` with `ck_zones.sql` and `ck_maptier.sql`.
 - Your database should now be set up!
 ### Starting the server
