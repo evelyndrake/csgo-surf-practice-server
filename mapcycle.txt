@@ -1,4 +1,4 @@
-surf.bsp
+surf
 surf1
 surf_1day
 surf_29palms
@@ -102,4 +102,5 @@ surf_vast
 surf_water-run_banjo_skill
 surf_whiteout
 surf_year3000
-surf_your_way.
+surf_your_way
+surf_demise

@@ -19,3 +19,5 @@ expressions/
 *.nut
 maps.zip
 *.webm
+mapcycle.txt
+*.cache
